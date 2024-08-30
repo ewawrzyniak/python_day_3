@@ -62,6 +62,6 @@ movieprice= "20"
 numberoffamily= "3"
 isevning = True 
 moviename= "Afraid"
-peoplegoing= int(input("How Many people are going?"))
+peoplegoing= input("How Many people are going?")
 #type conversion concerting one data type to another 
 print("we are going to see " + moviename + "at" + movietime + "and then eat dinner at" +dinner+ "at "+ dinnertime + " with " + peoplegoing + "people") 
